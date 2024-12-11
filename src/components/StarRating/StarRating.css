@@ -1,0 +1,40 @@
+.star-rating-wrapper {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  position: relative;
+}
+
+.star {
+  position: relative;
+  font-size: 24px;
+  line-height: 1;
+  color: #ccc;
+  width: 24px;
+  text-align: center;
+  pointer-events: all;
+}
+
+/* Full star: fully gold */
+.star-full {
+  color: #fadb14;
+}
+
+/* Half star:
+     Base star is gray (#ccc), we overlay half in gold.
+     Use a pseudo-element to show half gold.
+  */
+.star-half {
+  color: #ccc; /* base gray */
+  position: relative;
+}
+.star-half::before {
+  content: "★";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  overflow: hidden;
+  color: #fadb14;
+  pointer-events: none;
+}
