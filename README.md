@@ -20,13 +20,13 @@ You can install the package using **npm** or **yarn**.
 **Using npm:**
 
 ```
-npm install my-react-star-rating
+npm install @fineanmol/my-react-star-component
 ```
 
 **Using yarn:**
 
 ```
-yarn add my-react-star-rating
+yarn add @fineanmol/my-react-star-component
 ```
 
 ## Usage
@@ -37,8 +37,8 @@ Here's how you can use the `StarRating` component in your React application.
 
    ```jsx
    import React, { useState } from 'react';
-   import { StarRating } from 'my-react-star-rating';
-   import 'my-react-star-rating/dist/index.css'; // Adjust the path if necessary
+   import { StarRating } from '@fineanmol/my-react-star-component';
+   import '@fineanmol/my-react-star-component/style.css';
    ```
 
 2. **Implement the Component**
@@ -103,8 +103,8 @@ Here's a complete example of how to use the `StarRating` component within a Reac
 
    ```jsx
    import React, { useState } from 'react';
-   import { StarRating } from 'my-react-star-rating';
-   import 'my-react-star-rating/dist/index.css'; // Adjust the path if necessary
+   import { StarRating } from '@fineanmol/my-react-star-component';
+   import '@fineanmol/my-react-star-component/style.css';
    ```
 
 2. **Create the App Component**
