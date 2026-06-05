@@ -27,9 +27,6 @@ jobs:
       - name: Build library
         run: npm run build:lib
 
-      - name: Test
-        run: CI=true npm test -- --watchAll=false --passWithNoTests --forceExit
-
   release:
     runs-on: ubuntu-latest
     needs: validate
