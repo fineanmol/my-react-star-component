@@ -26,4 +26,4 @@ jobs:
         run: npm run build:lib
 
       - name: Test
-        run: CI=true npm test -- --watchAll=false --passWithNoTests
+        run: CI=true npm test -- --watchAll=false --passWithNoTests --forceExit
