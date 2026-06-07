@@ -1,6 +1,6 @@
 {
   "name": "@fineanmol/my-react-star-component",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A customizable and reusable React star rating component.",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
