@@ -1,6 +1,11 @@
 
 # My React Star Rating
 
+[![npm version](https://img.shields.io/npm/v/@fineanmol/my-react-star-component.svg)](https://www.npmjs.com/package/@fineanmol/my-react-star-component)
+[![npm downloads](https://img.shields.io/npm/dm/@fineanmol/my-react-star-component.svg)](https://www.npmjs.com/package/@fineanmol/my-react-star-component)
+[![npm license](https://img.shields.io/npm/l/@fineanmol/my-react-star-component.svg)](https://www.npmjs.com/package/@fineanmol/my-react-star-component)
+[![GitHub stars](https://img.shields.io/github/stars/fineanmol/my-react-star-component.svg)](https://github.com/fineanmol/my-react-star-component)
+
 A customizable and reusable React star rating component.
 
 ## Features
